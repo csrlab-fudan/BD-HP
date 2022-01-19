@@ -1,4 +1,4 @@
-function [Rate1,Rate2,Fbb,P1,P2,FRF] = testHbGD(RR,H,Nrf,snrLin,K,Ns,w)
+function [Rate1,Rate2,Fbb,P1,P2,FRF] = testHbGDRegion(RR,H,Nrf,snrLin,K,Ns,w)
 [MR,Mt,Nf] = size(H);
 Mr = MR/K;
 M = 20;
